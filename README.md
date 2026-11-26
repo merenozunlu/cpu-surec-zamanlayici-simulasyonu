@@ -11,13 +11,13 @@ Tek çekirdekli bir CPU zamanlayıcısının **FCFS (First Come First Served)**,
 | **Muammer Eren Özünlü** | [@merenozunlu](https://github.com/merenozunlu) | **Round Robin Algoritması** (`round_robin_calistir`), Süre Hesaplamaları (`sureleri_hesapla`), Pointer ile Ortalamalar (`ortalamalar`), Sonuç Tablosu (`sonuc_tablosu_yazdir`) |
 | **Ortak Çalışma** | Tüm Grup | `main` fonksiyonu ve `algoritmalari_karsilastir` fonksiyonu |
 
-## ⚙️ Kısıtlamalar ve Teknik Özellikler
+##  /Kısıtlamalar ve Teknik Özellikler
 - Yalnızca `<stdio.h>` kütüphanesi kullanılmıştır.
 - `struct`, `malloc`/`free` kullanılmamış, süreç verileri **paralel dizilerle** yönetilmiştir.
 - Fonksiyonlardan çoklu değer döndürmek için **adresle aktarım (pointer parametreler)** kullanılmıştır.
 - Bağlam değişimi (context switch) takibinde `static` lokal değişken yapısı kullanılmıştır.
 
-## 🚀 Derleme ve Çalıştırma
+##  /Derleme ve Çalıştırma
 ```bash
 gcc main.c -o simulator
 ./simulator
