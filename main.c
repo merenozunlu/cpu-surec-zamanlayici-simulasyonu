@@ -2,7 +2,8 @@
 
 #define MAKS_SUREC 50
 #define MAKS_GANTT 500
-
+//Abdullah Arslan, Muemmer Eren Özünlü, Taha Yasin Karateke
+/*1260505042 1260505013 1260505001 NO'lu öğrenciler tarafından hazırlanmıştır.*/
 /* 
  * İzin verilen Global Değişkenler:
  * Simülasyon saati, bağlam değişimi sayacı ve Gantt şeması kayıt dizileri.
@@ -170,7 +171,7 @@ void surecleri_oku(int *n, int no[], int gelis[], int cpu[], int *zaman_dilimi) 
     }
 
     printf("Round Robin icin Zaman Dilimi (Quantum) giriniz: ");
-    scanf("%d", zaman_dilimi);
+    scanf("%d", zaman_dilimi?);
 }
 
 /*
