@@ -171,7 +171,7 @@ void surecleri_oku(int *n, int no[], int gelis[], int cpu[], int *zaman_dilimi) 
     }
 
     printf("Round Robin icin Zaman Dilimi (Quantum) giriniz: ");
-    scanf("%d", zaman_dilimi?);
+    scanf("%d", zaman_dilimi);
 }
 
 /*
