@@ -1,5 +1,5 @@
 # Algoritma ve Programlama — Grup Ödevi: CPU Süreç Zamanlayıcı Simülasyonu (Abdullah, Eren, Taha)
-//1260505042 1260505013 1260505001 NO'lu öğrenciler tarafından hazırlanmıştır.
+/*1260505042 1260505013 1260505001 NO'lu öğrenciler tarafından hazırlanmıştır.*/
 
 Tek çekirdekli bir CPU zamanlayıcısının **FCFS (First Come First Served)**, **SJF (Shortest Job First - Kesintisiz)** ve **Round Robin (Tur Tabanlı)** algoritmalarıyla C dilinde simülasyonu.
 
